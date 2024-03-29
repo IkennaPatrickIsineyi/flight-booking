@@ -58,7 +58,7 @@ export default function PriceSlider({ minPrice, maxPrice, handlePriceChange }: P
                         PopperProps={{
                             disablePortal: true,
                             popperOptions: {
-                                positionFixed: true,
+                                /*   positionFixed: true, */
                                 /*  modifiers: {
                                      preventOverflow: {
                                          enabled: true,
