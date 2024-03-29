@@ -59,12 +59,12 @@ export default function PriceSlider({ minPrice, maxPrice, handlePriceChange }: P
                             disablePortal: true,
                             popperOptions: {
                                 positionFixed: true,
-                                modifiers: {
-                                    preventOverflow: {
-                                        enabled: true,
-                                        boundariesElement: "window"
-                                    }
-                                }
+                                /*  modifiers: {
+                                     preventOverflow: {
+                                         enabled: true,
+                                         boundariesElement: "window"
+                                     } 
+                                 } */
                             }
                         }}
                         placement="bottom" title={value} disableTouchListener={true} arrow={true} >
